@@ -1,0 +1,18 @@
+body{
+	background-color: #79BD9A;
+	font-family: "Calibri";
+	height: 100%;
+}
+main{
+	width: 60%;
+	margin:auto;
+}
+header{
+	height: 200px;
+}
+h1{
+	text-align: center;
+	font-size: 80px;
+	color: #fff;
+	text-shadow:#3B8686 2px 2px;
+}
