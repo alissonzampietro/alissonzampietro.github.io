@@ -16,8 +16,8 @@
     <link href="css/style.css" rel="stylesheet">
 
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"> -->
 
 </head>
 
@@ -80,7 +80,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Portifólio</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -154,21 +154,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h2>Um pouco sobre mim</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>Programador desde os 17 anos, vem sempre procurando estudar novas tecnologias com o objetivo de desenvolver a melhor solução. Com experiência de <span id="tempoMercado"></span> anos, vem sempre buscando novos desafios.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
+                    <p>Algumas das tecnogias com qual trabalho são: PHP OO, Codeigniter, HTML5, CSS3, Linux, Vagrant, GIT, Angular.JS, MySQL, JavaScript, Jquery, Arduino, Photoshop, Amazon AWS. </p>
                 </div>
             </div>
         </div>
@@ -179,7 +174,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
+                    <h2>Entre em contato</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -236,31 +231,25 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                        <p>São Paulo<br><img src="img/brazil.png" alt="Brazil" class="country">Brasil</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                        <h3>Redes Sociais</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/alisson.zampietro" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a href="https://plus.google.com/u/0/108795706049457404905" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                <a href="https://www.linkedin.com/profile/view?id=157216404" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>Sobre mim</h3>
+                        <p>Programador, <span id="idade"></span> anos de idade, destes sendo <span id="tempoMercado"></span> anos dedicados a área de Web :-).</p>
                     </div>
                 </div>
             </div>
@@ -269,7 +258,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2014
+                        Copyright &copy; Alisson Zampietro <span id="anoAtual"></span>
                     </div>
                 </div>
             </div>
@@ -524,6 +513,16 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
+
+    <script>
+        var anoAtual = new Date().getFullYear();
+        var tempoMercado = anoAtual - 2011;
+        var idade = anoAtual - 1994;
+        console.log(anoAtual);
+        document.getElementById("anoAtual").innerHTML = anoAtual;
+        document.getElementById("idade").innerHTML = idade;
+        document.getElementById("tempoMercado").innerHTML = tempoMercado;
+    </script>
 
 </body>
 
