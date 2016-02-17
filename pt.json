@@ -1,0 +1,52 @@
+{
+	"portuguese":{
+		"menu":{
+			"portfolio":"Portifólio",
+			"about": "Sobre",
+			"contact": "Contato"
+		},
+		"main":{
+			"title": "Desenvolvedor Web"
+		},
+		"portfolio":{
+			"title": "Desenvolvedor Web",
+			"projects":{
+				"project1":{
+					"title": "PROJETO JARDIM NOTÁVEL",
+					"description": "Portal infantil contendo diversas atividades para que a criança possa realizar com o objetivo de desbloquear itens (comidas, remédios e acessórios) para que as necessidades de seu PET (imagem acima) possam serem sanadas. Fui encarregado de ser o analista responsável pelo back-end, desenvolvendo o modelo de funcionamento e realizando a implementação. Site pode ser acessado por <a href='https://jardimnotavel.com.br'>aqui</a>",
+					"date": "Dezembro 2014",
+					"service": "Análise, desenvolvimento e implementação do sistema"
+				},
+				"project2":{
+					"title": "PROJETO RISADARIA",
+					"description": "Responsável por desenvolver toda a estrutura back-end do site Risadaria do ano de 2013, e responsável por criar o front-end e back-end do painel de cadastro de participantes.",
+					"date": "Maio 2013",
+					"service": "Desenvolvimento Front-end e Back-end"
+				},
+				"project3":{
+					"title": "PROJETO ESCOLA CAPRICHO",
+					"description": "Responsável pelo desenvolvimento de um sistema CMS para a empresa Escola Capricho para atualização dos conteúdos no site e sistema de cadastro de curso.",
+					"date": "Setembro de 2012",
+					"service": "Desenvolvimento Web"
+				},
+				"project4":{
+					"title": "PROJETO KIBEXIGA",
+					"description": "Responsável pelo desenvolvimento de um sistema CMS para a casa de eventos Kibexiga para inserção de capas e próximos eventos.",
+					"date": "Agosto 2013",
+					"service": "Desenvolvimento Web"
+				},
+				"project5":{
+					"title": "PROJETO BRILHO DA LUA",
+					"description": "Responsável pelo desenvolvimento de um sistema CMS para a casa de eventos Brilho da Lua para inserção de capas e próximos eventos.",
+					"date": "Julho 2012",
+					"service": "Desenvolvimento Web"
+				}
+			}
+		},
+		"aboutme":{
+			"title": "UM POUCO SOBRE MIM",
+			"description1": "Programador desde os 17 anos, vem sempre procurando estudar novas tecnologias com o objetivo de desenvolver a melhor solução. Com experiência de 5 anos, vem sempre buscando novos desafios.",
+			"description2": "Algumas das tecnogias com qual trabalho são: PHP7 , Composer, HTML5, CSS3, Linux, Vagrant, GIT, Angular.JS, MySQL, JavaScript, Jquery, Arduino, Photoshop, Amazon AWS, Bower, SCRUM"
+		}
+	}
+}

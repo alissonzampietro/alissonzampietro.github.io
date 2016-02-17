@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head ng-app="alissonzam">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +9,19 @@
     <meta name="description" content="">
     <meta name="author" content="Alisson Zampietro">
 
-    <title>Alisson Zampietro - Desenvolvedor Web</title>
+    <title>Alisson Zampietro - Web Developer</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="css/style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
     <!-- <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"> -->
+    <script src="bower_components/jquery/dist/angular.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="app/controllers/controller.js"></script>
+    <script src="app/app.js"></script>
 
 </head>
 
@@ -44,7 +48,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portifólio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#about">Sobre</a>
@@ -64,7 +68,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <img class="img-responsive" src="assets/img/profile.png" alt="">
                     <div class="intro-text">
                         <span class="name">Alisson Zampietro</span>
                         <hr class="star-light">
@@ -92,7 +96,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/jardimnotavel.jpg" class="img-responsive" alt="">
+                        <img src="assets/img/portfolio/jardimnotavel.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -102,7 +106,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/risadaria.jpg" class="img-responsive" alt="">
+                        <img src="assets/img/portfolio/risadaria.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -112,7 +116,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/escolacapricho.jpg" class="img-responsive" alt="">
+                        <img src="assets/img/portfolio/escolacapricho.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -122,7 +126,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/kibexiga.jpg" class="img-responsive" alt="">
+                        <img src="assets/img/portfolio/kibexiga.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -132,7 +136,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/brilholua.jpg" class="img-responsive" alt="">
+                        <img src="assets/img/portfolio/brilholua.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -142,7 +146,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/jogomemoria.jpg" class="img-responsive" alt="">
+                        <img src="assets/img/portfolio/jogomemoria.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
             </div>
@@ -231,7 +235,7 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p>São Paulo<br><img src="img/brazil.png" alt="Brazil" class="country">Brasil</p>
+                        <p>São Paulo<br><img src="assets/img/brazil.png" alt="Brazil" class="country">Brasil</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Redes Sociais</h3>
@@ -287,7 +291,7 @@
                         <div class="modal-body">
                             <h2>Projeto Jardim Notável</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/jardimnotavel2.jpg" class="img-responsive img-centered" alt="">
+                            <img src="assets/img/portfolio/jardimnotavel2.jpg" class="img-responsive img-centered" alt="">
                             <p>Portal infantil contendo diversas atividades para que a criança possa realizar com o objetivo de desbloquear itens (comidas, remédios e acessórios) para que as necessidades de seu PET (imagem acima) possam serem sanadas. Fui encarregado de ser o analista responsável pelo back-end, desenvolvendo o modelo de funcionamento e realizando a implementação. Site pode ser acessado por <a href="https://jardimnotavel.com.br">aqui</a>.</p>
                             <ul class="list-inline item-details">
                                 <li>Cliente:
@@ -324,7 +328,7 @@
                         <div class="modal-body">
                             <h2>Projeto Risadaria</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/risadaria2.jpg" class="img-responsive img-centered" alt="">
+                            <img src="assets/img/portfolio/risadaria2.jpg" class="img-responsive img-centered" alt="">
                             <p>Responsável por desenvolver toda a estrutura back-end do site <b>Risadaria</b> do ano de 2013, e responsável por criar o front-end e back-end do painel de cadastro de participantes.</p>
                             <ul class="list-inline item-details">
                                 <li>Cliente:
@@ -361,7 +365,7 @@
                         <div class="modal-body">
                             <h2>Projeto Escola Capricho</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/escolacapricho2.jpg" class="img-responsive img-centered" alt="">
+                            <img src="assets/img/portfolio/escolacapricho2.jpg" class="img-responsive img-centered" alt="">
                             <p>Responsável pelo desenvolvimento de um sistema CMS para a empresa <b>Escola Capricho</b> para atualização dos conteúdos no site e sistema de cadastro de curso.</p>
                             <ul class="list-inline item-details">
                                 <li>Cliente:
@@ -398,7 +402,7 @@
                         <div class="modal-body">
                             <h2>Projeto Kibexiga</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/kibexiga2.jpg" class="img-responsive img-centered" alt="">
+                            <img src="assets/img/portfolio/kibexiga2.jpg" class="img-responsive img-centered" alt="">
                             <p>Responsável pelo desenvolvimento de um sistema CMS para a casa de eventos <b>Kibexiga</b> para inserção de capas e próximos eventos.</p>
                             <ul class="list-inline item-details">
                                 <li>Cliente:
@@ -435,7 +439,7 @@
                         <div class="modal-body">
                             <h2>Projeto Brilho da Lua</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/brilholua2.jpg" class="img-responsive img-centered" alt="">
+                            <img src="assets/img/portfolio/brilholua2.jpg" class="img-responsive img-centered" alt="">
                             <p>Responsável pelo desenvolvimento de um sistema CMS para a casa de eventos <b>Brilho da Lua</b> para inserção de capas e próximos eventos.</p>
                             <ul class="list-inline item-details">
                                 <li>Cliente:
@@ -472,7 +476,7 @@
                         <div class="modal-body">
                             <h2>Projeto Jogo da Memória</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/jogomemoria2.jpg" class="img-responsive img-centered" alt="">
+                            <img src="assets/img/portfolio/jogomemoria2.jpg" class="img-responsive img-centered" alt="">
                             <p>Projeto desenvolvido com o objetivo de treinar a linguagem JavaScript.</p>
                             <ul class="list-inline item-details">
                                 <li>Cliente:
@@ -497,22 +501,22 @@
     </div>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/cbpAnimatedHeader.js"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <script src="assets/js/jqBootstrapValidation.js"></script>
+    <script src="assets/js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
+    <script src="assets/js/freelancer.js"></script>
 
     <script>
         var anoAtual = new Date().getFullYear();
