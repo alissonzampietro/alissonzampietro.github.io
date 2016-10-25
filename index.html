@@ -160,7 +160,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Programador desde os 17 anos, vem sempre procurando estudar novas tecnologias com o objetivo de desenvolver a melhor solução. Com experiência de <span id="tempoMercado"></span> anos, vem sempre buscando novos desafios.</p>
+                    <p>Programador desde os 19 anos, vem sempre procurando estudar novas tecnologias com o objetivo de desenvolver a melhor solução. Com experiência de <span class="tempoMercado"></span> anos, vem sempre buscando novos desafios.</p>
                 </div>
                 <div class="col-lg-4">
                     <p>Algumas das tecnogias com qual trabalho são: PHP OO, Codeigniter, HTML5, CSS3, Linux, Vagrant, GIT, Angular.JS, MySQL, JavaScript, Jquery, Arduino, Photoshop, Amazon AWS. </p>
@@ -249,7 +249,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Sobre mim</h3>
-                        <p>Programador, <span id="idade"></span> anos de idade, destes sendo <span id="tempoMercado"></span> anos dedicados a área de Web :-).</p>
+                        <p>Programador, <span id="idade"></span> anos de idade, destes sendo <span class="tempoMercado"></span> anos dedicados a área de Web :-).</p>
                     </div>
                 </div>
             </div>
@@ -516,12 +516,15 @@
 
     <script>
         var anoAtual = new Date().getFullYear();
-        var tempoMercado = anoAtual - 2011;
+        var tempoMercado = anoAtual - 2013;
         var idade = anoAtual - 1994;
-        console.log(anoAtual);
         document.getElementById("anoAtual").innerHTML = anoAtual;
         document.getElementById("idade").innerHTML = idade;
-        document.getElementById("tempoMercado").innerHTML = tempoMercado;
+        var elemento = document.getElementsByClassName("tempoMercado");
+        for(var i = 0; i < elemento.length; i++)
+        {
+            elemento[i].innerHTML = tempoMercado;
+        }
     </script>
 
 </body>
