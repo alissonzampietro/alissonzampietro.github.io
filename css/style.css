@@ -110,7 +110,8 @@ header .intro-text .skills {
 }
 
 .navbar-opacity {
-    opacity: 0.95;
+    opacity: 0.95;]
+    background: #000 !important;
 }
 .my-picture {
     transition: 300ms all;
