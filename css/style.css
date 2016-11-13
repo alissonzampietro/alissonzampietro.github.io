@@ -48,7 +48,6 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -82,7 +81,9 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: url("../img/infinite.jpg");
+    background-position: fixed;
+    background-size: 800px 800px; 
 }
 
 header .container {
@@ -106,6 +107,43 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+}
+
+.navbar-opacity {
+    opacity: 0.95;
+}
+.my-picture {
+    transition: 300ms all;
+    width: 256px;
+    height: 256px;
+    -webkit-filter: contrast(1.2);
+}
+span.name {
+    display: inline-flex !important;
+    height: 101px;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    font-size: 4.75em;
+    position: absolute;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 
 @media(min-width:768px) {

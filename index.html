@@ -24,7 +24,7 @@
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-opacity">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -34,7 +34,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Alisson Zampietro</a>
+                <a class="navbar-brand" href="#page-top">ALZARO</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -64,11 +64,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <img class="img-responsive my-picture" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Alisson Zampietro</span>
-                        <hr class="star-light">
-                        <span class="skills">Desenvolvedor Web</span>
+                        <span class="name">Alisson Zampietro <span class="typed-cursor"></span> </span>
                     </div>
                 </div>
             </div>
@@ -512,20 +510,9 @@
     <script src="js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
+    <script src="bower_components/typed.js/dist/typed.min.js"></script>
     <script src="js/freelancer.js"></script>
-
-    <script>
-        var anoAtual = new Date().getFullYear();
-        var tempoMercado = anoAtual - 2012;
-        var idade = anoAtual - 1994;
-        document.getElementById("anoAtual").innerHTML = anoAtual;
-        document.getElementById("idade").innerHTML = idade;
-        var elemento = document.getElementsByClassName("tempoMercado");
-        for(var i = 0; i < elemento.length; i++)
-        {
-            elemento[i].innerHTML = tempoMercado;
-        }
-    </script>
+    <script src="js/scripts.js"></script>
 
 </body>
 
