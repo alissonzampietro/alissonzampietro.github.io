@@ -121,18 +121,6 @@ header .intro-text .skills {
     height: 256px;
     -webkit-filter: contrast(1.2);
 }
-span.name {
-    display: inline-flex !important;
-    height: 101px;
-}
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-    font-size: 4.75em;
-    position: absolute;
-}
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
@@ -162,6 +150,19 @@ span.name {
     header .intro-text .skills {
         font-size: 1.75em;
     }
+
+    .typed-cursor{
+        opacity: 1;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+        font-size: 4.75em;
+        position: absolute;
+    }
+    span.name {
+        display: inline-flex !important;
+        height: 101px;
+    }
 }
 
 @media(min-width:768px) {
@@ -185,6 +186,15 @@ span.name {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+
+    .typed-cursor{
+        opacity: 1;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+        font-size: 4.75em;
+        position: absolute;
     }
 }
 
@@ -242,6 +252,21 @@ section.success a.active {
     section.first {
         padding-top: 75px;
     }
+
+    span.name {
+        display: inline-flex !important;
+        height: auto;
+    }
+
+    .typed-cursor{
+        opacity: 1;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+        font-size: 1.75em;
+        position: absolute;
+    }
+
 }
 
 #portfolio .portfolio-item {
@@ -298,6 +323,14 @@ section.success a.active {
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
+    }
+    .typed-cursor{
+        opacity: 1;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+        font-size: 4.75em;
+        position: absolute;
     }
 }
 
