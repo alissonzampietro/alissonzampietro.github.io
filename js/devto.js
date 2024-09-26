@@ -3,7 +3,6 @@ window.onload = async function() {
     const response = await result.json();
     const parentElement = document.querySelector('.article-content');
     const element = document.querySelector('.article-item');
-    console.log(response);
     response.forEach(article => {
         let newEl = element.cloneNode(true);
         newEl.querySelector('h4').innerHTML = article.title;
