@@ -1,5 +1,5 @@
 var anoAtual = new Date().getFullYear();
-var tempoMercado = anoAtual - 2012;
+var tempoMercado = anoAtual - 2013;
 var idade = anoAtual - 1994;
 document.getElementById("anoAtual").innerHTML = anoAtual;
 document.getElementById("idade").innerHTML = idade;
